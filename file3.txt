@@ -23,3 +23,5 @@ clear the stash
 
 
 # Tags - like sticky notes - that can be attached with the commits
+
+- git tag -a <tag name> -m "release 1.0"
