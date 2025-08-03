@@ -6,3 +6,13 @@ hy this commit after merge 1
 
 
 to check STAsH - LETS DO CONFLICTING CHANGES
+
+git stash can be saved as
+- git stash save "work in progress on x feature"
+
+
+Check stash list
+- git stash list
+
+drop stash 
+- drop stash
