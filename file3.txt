@@ -15,4 +15,11 @@ Check stash list
 - git stash list
 
 drop stash 
-- drop stash
+- git drop stash
+
+clear the stash
+- git stash clear
+
+
+
+# Tags - like sticky notes - that can be attached with the commits
