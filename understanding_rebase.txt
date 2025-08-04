@@ -1,1 +1,18 @@
 # Rebase and refog
+
+
+Git Rebase
+git rebase is a command used to integrate changes from one branch into another by moving or combining a sequence of commits to a new base commit. Instead of creating a merge commit, rebase rewrites the commit history by applying the commits from the feature branch on top of the target branch, resulting in a linear and cleaner history.
+Benefits:
+Creates a linear and streamlined commit history, making it easier to follow and understand.
+Avoids unnecessary merge commits, reducing clutter in the commit log.
+Allows for interactive rebase (git rebase -i) to clean up, combine, or reorder commits before integrating them.
+Drawbacks:
+Rewrites commit history, which can be problematic if performed on shared branches, as it can cause conflicts for collaborators.
+Requires careful conflict resolution during the rebase process.
+Git Reflog
+git reflog (reference log) is a local record of all the changes to the tips of branches and other references in your repository. It tracks every time HEAD (your current position) changes, including commits, branch switches, resets, and rebases. It serves as a safety net, allowing you to recover lost commits or branches. 
+Benefits:
+Provides a history of all actions performed in your local repository, even if they rewrote history.
+Allows for recovery of lost commits or branches that may have been accidentally reset, deleted, or otherwise discarded.
+Useful for debugging recent actions and understanding how your repository's state evolved.
